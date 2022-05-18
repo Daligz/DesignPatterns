@@ -5,5 +5,7 @@ public class Client {
         Book book;
         book = new AdapterBook(new SimpleBook("Refactoring", "Martin Fowler"));
         System.out.println(book.getTitleAndAuthor());
+        book = new AdapterMagazine(new Magazine("RevDepo", "Martina Flower", "Deportes"));
+        System.out.println(book.getTitleAndAuthor());
     }
 }

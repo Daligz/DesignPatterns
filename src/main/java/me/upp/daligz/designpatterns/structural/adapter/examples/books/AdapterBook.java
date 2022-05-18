@@ -12,5 +12,4 @@ public class AdapterBook implements Book{
     public String getTitleAndAuthor(){
         return book.getTitle() + " .by " + book.getAuthor();
     }
-
 }
