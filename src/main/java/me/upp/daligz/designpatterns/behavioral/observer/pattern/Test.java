@@ -1,4 +1,4 @@
-package observer.pattern;
+package me.upp.daligz.designpatterns.behavioral.observer.pattern;
 
 /**
  * Created by luisburgos on 15/07/15.

@@ -1,8 +1,8 @@
-package observer.examples.auction;
+package me.upp.daligz.designpatterns.behavioral.observer.examples.auction;
 
-import observer.pattern.Event;
-import observer.pattern.Observer;
-import observer.pattern.Subject;
+import me.upp.daligz.designpatterns.behavioral.observer.pattern.Event;
+import me.upp.daligz.designpatterns.behavioral.observer.pattern.Observer;
+import me.upp.daligz.designpatterns.behavioral.observer.pattern.Subject;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -11,7 +11,7 @@ import java.util.LinkedList;
 /**
  * Created by luisburgos on 15/07/15.
  */
-public class Auctioneer extends Subject{
+public class Auctioneer extends Subject {
 
     private final HashMap<Integer, LinkedList<Observer>> observers;
 

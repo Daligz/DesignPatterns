@@ -1,12 +1,12 @@
-package command.examples.devices;
+package me.upp.daligz.designpatterns.behavioral.command.examples.devices;
 
-import command.examples.devices.commands.TurnOffAllDevices;
-import command.examples.devices.commands.TurnOffTelevision;
-import command.examples.devices.commands.TurnOnTelevision;
-import command.examples.devices.commands.VolumeUpTelevision;
-import command.examples.devices.devices.ElectronicDevice;
-import command.examples.devices.devices.Radio;
-import command.examples.devices.devices.Television;
+import me.upp.daligz.designpatterns.behavioral.command.examples.devices.commands.TurnOffAllDevices;
+import me.upp.daligz.designpatterns.behavioral.command.examples.devices.commands.TurnOffTelevision;
+import me.upp.daligz.designpatterns.behavioral.command.examples.devices.commands.TurnOnTelevision;
+import me.upp.daligz.designpatterns.behavioral.command.examples.devices.commands.VolumeUpTelevision;
+import me.upp.daligz.designpatterns.behavioral.command.examples.devices.devices.ElectronicDevice;
+import me.upp.daligz.designpatterns.behavioral.command.examples.devices.devices.Radio;
+import me.upp.daligz.designpatterns.behavioral.command.examples.devices.devices.Television;
 
 import java.util.ArrayList;
 import java.util.List;

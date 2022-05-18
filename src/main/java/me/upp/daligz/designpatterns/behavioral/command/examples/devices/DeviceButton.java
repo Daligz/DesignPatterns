@@ -1,6 +1,6 @@
-package command.examples.devices;
+package me.upp.daligz.designpatterns.behavioral.command.examples.devices;
 
-import command.examples.devices.commands.Command;
+import me.upp.daligz.designpatterns.behavioral.command.examples.devices.commands.Command;
 
 /**
  * The INVOKER

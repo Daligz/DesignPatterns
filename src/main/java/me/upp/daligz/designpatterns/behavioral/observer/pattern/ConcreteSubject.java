@@ -1,4 +1,4 @@
-package observer.pattern;
+package me.upp.daligz.designpatterns.behavioral.observer.pattern;
 
 import java.util.HashMap;
 import java.util.Iterator;

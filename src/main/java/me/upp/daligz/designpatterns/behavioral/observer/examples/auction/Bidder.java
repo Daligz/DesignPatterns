@@ -1,7 +1,7 @@
-package observer.examples.auction;
+package me.upp.daligz.designpatterns.behavioral.observer.examples.auction;
 
-import observer.pattern.Event;
-import observer.pattern.Observer;
+import me.upp.daligz.designpatterns.behavioral.observer.pattern.Event;
+import me.upp.daligz.designpatterns.behavioral.observer.pattern.Observer;
 
 /**
  * Created by luisburgos on 15/07/15.

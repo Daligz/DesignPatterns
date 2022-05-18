@@ -1,6 +1,6 @@
-package command.examples.devices.commands;
+package me.upp.daligz.designpatterns.behavioral.command.examples.devices.commands;
 
-import command.examples.devices.devices.ElectronicDevice;
+import me.upp.daligz.designpatterns.behavioral.command.examples.devices.devices.ElectronicDevice;
 
 /**
  * Created by luisburgos on 13/08/15.
