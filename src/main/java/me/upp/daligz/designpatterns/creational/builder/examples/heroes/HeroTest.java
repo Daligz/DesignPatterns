@@ -1,4 +1,4 @@
-package builder.examples.heroes;
+package me.upp.daligz.designpatterns.creational.builder.examples.heroes;
 
 /**
  * Created by luisburgos on 22/07/15.

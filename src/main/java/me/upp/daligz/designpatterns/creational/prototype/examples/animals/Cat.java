@@ -1,4 +1,4 @@
-package prototype.examples.animals;
+package me.upp.daligz.designpatterns.creational.prototype.examples.animals;
 
 /**
  * Created by luisburgos on 23/07/15.
