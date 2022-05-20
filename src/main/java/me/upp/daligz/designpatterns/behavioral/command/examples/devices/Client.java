@@ -1,9 +1,6 @@
 package me.upp.daligz.designpatterns.behavioral.command.examples.devices;
 
-import me.upp.daligz.designpatterns.behavioral.command.examples.devices.commands.TurnOffAllDevices;
-import me.upp.daligz.designpatterns.behavioral.command.examples.devices.commands.TurnOffTelevision;
-import me.upp.daligz.designpatterns.behavioral.command.examples.devices.commands.TurnOnTelevision;
-import me.upp.daligz.designpatterns.behavioral.command.examples.devices.commands.VolumeUpTelevision;
+import me.upp.daligz.designpatterns.behavioral.command.examples.devices.commands.*;
 import me.upp.daligz.designpatterns.behavioral.command.examples.devices.devices.ElectronicDevice;
 import me.upp.daligz.designpatterns.behavioral.command.examples.devices.devices.Radio;
 import me.upp.daligz.designpatterns.behavioral.command.examples.devices.devices.Television;
@@ -50,8 +47,10 @@ public class Client {
         DeviceButton turnThemOff = new DeviceButton(turnOffDevices);
 
         turnThemOff.press();
-        turnThemOff.pressUndo();
 
+        final TurnOnAllDevices turnOnAllDevices = new TurnOnAllDevices(allDevices);
+
+        turnOnAllDevices.execute();
     }
 
 }
