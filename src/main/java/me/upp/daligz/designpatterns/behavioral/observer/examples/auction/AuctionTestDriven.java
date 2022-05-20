@@ -17,6 +17,7 @@ public class AuctionTestDriven {
         Observer bidderOne = new Bidder();
         Observer bidderTwo = new Bidder();
         Observer bidderThree = new Bidder();
+        Observer announcer = new Announcer();
 
         theAuctioneer.attach(0, bidderOne);
         theAuctioneer.attach(0, bidderTwo);
@@ -24,11 +25,14 @@ public class AuctionTestDriven {
 
         theAuctioneer.attach(1, bidderThree);
 
+        theAuctioneer.attach(2, announcer);
+
         Event highBid = new Event(0, "HIGH BID");
         Event lowBid = new Event(1, "LOW BID");
+        Event announce = new Event(2, "ANNOUNCER");
 
         theAuctioneer.notifyObserver(0, highBid);
         theAuctioneer.notifyObserver(1, lowBid);
-
+        theAuctioneer.notifyObserver(2, announce);
     }
 }
