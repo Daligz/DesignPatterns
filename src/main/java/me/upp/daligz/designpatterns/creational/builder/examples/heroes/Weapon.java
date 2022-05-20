@@ -5,7 +5,7 @@ package me.upp.daligz.designpatterns.creational.builder.examples.heroes;
  */
 public enum Weapon {
 
-    DAGGER, SWORD, AXE, WARHAMMER, BOW;
+    DAGGER, SWORD, AXE, WARHAMMER, BOW, MAGIC;
 
     @Override
     public String toString() {

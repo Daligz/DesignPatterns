@@ -5,7 +5,7 @@ package me.upp.daligz.designpatterns.creational.builder.examples.heroes;
  */
 public enum Profession {
 
-    WARRIOR, THIEF, MAGE, PRIEST;
+    WARRIOR, THIEF, MAGE, PRIEST, WIZZARD;
 
     @Override
     public String toString() {

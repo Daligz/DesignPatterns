@@ -19,6 +19,10 @@ public class HeroTest {
         Hero thief = new HeroBuilder(Profession.THIEF, "Desmond")
                 .withWeapon(Weapon.BOW).build();
         System.out.println(thief);
+
+        Hero wizzard = new HeroBuilder(Profession.WIZZARD, "Will")
+                .withWeapon(Weapon.MAGIC).build();
+        System.out.println(wizzard);
     }
 
 }
