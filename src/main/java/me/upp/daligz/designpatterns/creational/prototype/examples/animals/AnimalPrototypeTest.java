@@ -14,18 +14,23 @@ public class AnimalPrototypeTest {
         System.out.println("Turn of the dogs...");
 
         animal = new Dog();
-        clonedAnimal = (Dog) factory.getClone(animal);
+        clonedAnimal = factory.getClone(animal);
         System.out.println(animal + " with ID: " + System.identityHashCode(System.identityHashCode(animal)));
         System.out.println(clonedAnimal + " with ID: " + System.identityHashCode(System.identityHashCode(clonedAnimal)));
 
         System.out.println("Turn of the cats...");
 
         animal = new Cat();
-        clonedAnimal = (Cat) factory.getClone(animal);
+        clonedAnimal = factory.getClone(animal);
         System.out.println(animal + " with ID: " + System.identityHashCode(System.identityHashCode(animal)));
         System.out.println(clonedAnimal + " with ID: " + System.identityHashCode(System.identityHashCode(clonedAnimal)));
 
+        System.out.println("Turn of the turtles...");
 
+        animal = new Turtle();
+        clonedAnimal = factory.getClone(animal);
+        System.out.println(animal + " with ID: " + System.identityHashCode(System.identityHashCode(animal)));
+        System.out.println(clonedAnimal + " with ID: " + System.identityHashCode(System.identityHashCode(clonedAnimal)));
     }
 
 }
